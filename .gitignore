@@ -1,0 +1,33 @@
+# 依存関係
+node_modules/
+
+# データベースファイル
+*.db
+*.sqlite
+*.sqlite3
+
+# ログファイル
+logs/
+*.log
+
+# 環境変数
+.env
+.env.local
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# エディタファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ビルドファイル
+dist/
+build/
+
+# テストスクリプト
+test-system.js
